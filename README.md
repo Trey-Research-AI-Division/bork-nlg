@@ -1,1 +1,1 @@
-# bork-nlg
+# Bork Natural Language Generation Model
