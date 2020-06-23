@@ -14,7 +14,7 @@ on:
 # workflow_2_0_0_node: workflow|workflow|2.0.0|8cf2c622-61f1-44fc-96f7-156518a8d0b4
 
 # Workflow w/ feature engineering:
-# workflow_2_1_0_node: workflow|workflow|2.0.0|22414c60-a10d-474b-9bf2-824c821ea2d8
+# workflow_2_1_0_node: workflow|workflow|2.1.0|4528312f-de7b-4189-a29e-73e17f6a7061
 
 # Workflow w/ feature engineering & responsible AI:
 # workflow_2_2_0_node: workflow|workflow|2.0.0|42804cf5-cd45-4a50-ad64-ea0150b9e494
@@ -23,7 +23,7 @@ on:
 # workflow_2_3_0_node: workflow|workflow|2.0.0|e9e3b723-a337-4de9-a221-03dfd178a6ad
 
 env:
-  WORKFLOW_NODE_ID: 'workflow|workflow|2.0.0|8cf2c622-61f1-44fc-96f7-156518a8d0b4'
+  WORKFLOW_NODE_ID: 'workflow|workflow|2.1.0|4528312f-de7b-4189-a29e-73e17f6a7061'
   SCHEMAS_GIT_URL: https://github.com/mlspec/mlspeclib-action-samples-schemas.git
   SCHEMAS_DIRECTORY: .parameters/schemas
 
