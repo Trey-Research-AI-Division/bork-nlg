@@ -10,7 +10,6 @@ jupyter = "*"
 nbconvert = "*"
 pandas = "*"
 tabulate = "*"
-pillow = ">=6.2.2"
 
 [packages]
 mlspeclib = "*"
@@ -22,8 +21,8 @@ scipy = "*"
 keras = "*"
 requests = "*"
 tensorflow = "*"
-interpret = "*"
 jupyter = "*"
+flake8 = "*"
 
 [requires]
 python_version = "3.6"
