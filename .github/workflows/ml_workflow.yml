@@ -6,9 +6,9 @@ name: ML Workflow
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 # Base workflow:
 # workflow_2_0_0_node: workflow|workflow|2.0.0|5594a17a-d1df-4aff-adeb-d5e38eab7e65
