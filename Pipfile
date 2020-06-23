@@ -23,6 +23,7 @@ requests = "*"
 tensorflow = "*"
 jupyter = "*"
 flake8 = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.6"
