@@ -1,0 +1,32 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+black = "*"
+jupyter = "*"
+nbconvert = "*"
+pandas = "*"
+tabulate = "*"
+pillow = ">=6.2.2"
+
+[packages]
+mlspeclib = "*"
+rope = "*"
+black = "*"
+msgpack = "*"
+nbconvert = "*"
+scipy = "*"
+keras = "*"
+requests = "*"
+tensorflow = "*"
+interpret = "*"
+jupyter = "*"
+
+[requires]
+python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true

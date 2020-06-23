@@ -1,0 +1,9 @@
+schema_version: 2.2.0
+nodes: 10
+cpu_per_node: 4
+ram_per_node: 64Gi
+gpu_required: true
+schema_type: serve_run
+base_image: ubuntu1804
+machine_type: NDv2
+serving_endpoint: 'https://bork.models.svc.contoso.internal:8888'        
