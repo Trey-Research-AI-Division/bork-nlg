@@ -53,9 +53,8 @@ class bork:
             return_string += choice(punctuation_end)
 
             all_sentences.append([phrase, return_string])
-            print(f"{phrase}^{return_string}")
-
-        # display(HTML(tabulate.tabulate(all_sentences, tablefmt='html', stralign="left", headers=['Sentence', 'Generated Text'])))
+        #    print(f"{phrase}^{return_string}")
+        display(HTML(tabulate.tabulate(all_sentences, tablefmt='html', stralign="left", headers=['Sentence', 'Generated Text'])))
 
     @staticmethod
     def display_test_data():
